@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Battery POS Privacy Policy</title>
+<meta name="description" content="นโยบายความเป็นส่วนตัวของแอป Battery POS (Privacy Policy)">
+<style>
+  :root { --bg:#f8fafc; --card:#fff; --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --accent:#059669; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f172a; --card:#1e293b; --ink:#e2e8f0; --muted:#94a3b8; --line:#334155; --accent:#34d399; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 system-ui, "Noto Sans Thai", "Leelawadee UI", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 48px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:19px; margin:28px 0 8px; }
+  .muted { color:var(--muted); }
+  section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:4px 20px 16px; margin:20px 0; }
+  ul { padding-left:22px; margin:8px 0; }
+  a { color:var(--accent); word-break:break-word; }
+  code { font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Battery POS</a></p>
+  <h1>นโยบายความเป็นส่วนตัว</h1>
+  <p class="muted">Privacy Policy • มีผลตั้งแต่ / Effective: 7 พฤศจิกายน 2569 (7 November 2026)</p>
+
+  <section>
+    <h2>สรุปสั้นๆ</h2>
+    <p>ข้อมูลของร้านอยู่ในมือถือของร้าน และใน Google Drive ของร้านเท่านั้น ผู้พัฒนาไม่มีเซิร์ฟเวอร์เก็บข้อมูล และไม่ได้รับข้อมูลการขาย ลูกค้า หรือสต็อกของร้าน แอปไม่มีโฆษณาและไม่มีระบบติดตามการใช้งาน</p>
+
+    <h2>ข้อมูลที่แอปเก็บ</h2>
+    <ul>
+      <li><b>ข้อมูลร้าน:</b> สินค้า สต็อก การขาย ใบเสร็จ ใบเสนอราคา ค่าใช้จ่าย ข้อมูลลูกค้าของร้าน (ชื่อ เบอร์โทร ที่อยู่ ทะเบียนรถ) และรูปถ่ายที่ร้านแนบไว้ ข้อมูลทั้งหมดเก็บในพื้นที่ของแอปบนมือถือเครื่องนั้น</li>
+      <li><b>ข้อมูลในเครื่อง:</b> รหัส PIN สำหรับล็อกแอป รหัสเปิดใช้งาน วันเริ่มทดลองใช้ และบันทึกข้อผิดพลาดล่าสุดของแอป</li>
+    </ul>
+
+    <h2>การใช้บัญชี Google และ Google Drive</h2>
+    <p>เมื่อร้านกด "เชื่อมบัญชี Google" แอปจะขอสิทธิ์ <code>drive.file</code> ซึ่งให้แอปเห็นและแก้ไข<b>เฉพาะไฟล์ที่แอปสร้างเอง</b>เท่านั้น แอปมองไม่เห็นไฟล์อื่นใน Drive ของร้าน แอปใช้สิทธิ์นี้เพื่อ:</p>
+    <ul>
+      <li>อ่านอีเมลของบัญชี Google เพื่อผูกกับรหัสเปิดใช้งานและช่วงทดลองใช้</li>
+      <li>สร้างโฟลเดอร์ "Battery POS Backup" และสำรองข้อมูลร้านลงไปวันละครั้ง (เก็บ 30 ไฟล์ล่าสุด) และกู้คืนจากไฟล์เหล่านั้นเมื่อร้านสั่ง</li>
+      <li>เก็บไฟล์ควบคุมขนาดเล็กในโฟลเดอร์เดียวกัน ได้แก่ เครื่องที่ใช้งานอยู่ (<code>device-lock.json</code>) สำเนารหัสเปิดใช้งาน (<code>activation.txt</code>) และวันเริ่มทดลองใช้ (<code>trial.json</code>)</li>
+    </ul>
+    <p>ข้อมูลจาก Google ใช้เพื่อการทำงานข้างต้นภายในแอปเท่านั้น ไม่ส่งต่อ ไม่ขาย และไม่ใช้เพื่อโฆษณา</p>
+
+    <h2>ข้อมูลที่ส่งถึงผู้พัฒนา</h2>
+    <p>แอปไม่ส่งข้อมูลถึงผู้พัฒนาเองโดยอัตโนมัติ ถ้าร้านกดปุ่ม "ส่งให้ผู้ขาย" ในหน้าตั้งค่า แอปจะสร้างข้อความสรุปและเปิดหน้าแชร์ของมือถือ ร้านเป็นผู้เลือกเองว่าจะส่งทางใด เช่น LINE ข้อความนี้มีรุ่นแอป รุ่นมือถือ อีเมลบัญชี Google สถานะการเปิดใช้งาน เวลาสำรองล่าสุด และข้อผิดพลาดล่าสุด แต่ไม่มีข้อมูลการขาย ลูกค้า หรือสต็อก ร้านกด "ดูข้อมูลที่จะส่ง" เพื่อตรวจก่อนส่งได้</p>
+    <p>ถ้าร้านส่งไฟล์สำรองข้อมูลมาให้ช่วยแก้ปัญหาเอง ผู้พัฒนาจะใช้ไฟล์นั้นเพื่อแก้ปัญหาเท่านั้น และลบทิ้งเมื่อเสร็จ</p>
+
+    <h2>การลบข้อมูลและการยกเลิกสิทธิ์</h2>
+    <ul>
+      <li>ลบข้อมูลในเครื่อง: ถอนการติดตั้งแอป หรือล้างข้อมูลแอปในตั้งค่าของ Android</li>
+      <li>ลบข้อมูลใน Drive: ลบโฟลเดอร์ "Battery POS Backup" ใน Google Drive ของร้าน</li>
+      <li>ยกเลิกสิทธิ์ที่ให้แอป: ไปที่ <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> แล้วนำ Battery POS ออก หรือกด "ยกเลิกการเชื่อม" ในแอป</li>
+    </ul>
+
+    <h2>การเปลี่ยนแปลงและการติดต่อ</h2>
+    <p>ถ้ามีการเปลี่ยนนโยบายนี้ จะแก้ไขที่หน้านี้พร้อมวันที่มีผล สอบถามได้ที่ <a href="mailto:hs8ole.pea@gmail.com">hs8ole.pea@gmail.com</a></p>
+  </section>
+
+  <section lang="en">
+    <h2>Summary</h2>
+    <p>Battery POS keeps shop data on the shop's own phone and in the shop's own Google Drive. The developer runs no server that stores shop data and does not receive sales, customer or stock data. The app has no ads and no analytics.</p>
+
+    <h2>Data the app stores</h2>
+    <ul>
+      <li><b>Shop data:</b> products, stock, sales, receipts, quotations, expenses, the shop's customer details (name, phone, address, licence plate) and photos the shop attaches. All of it is kept in the app's storage on that phone.</li>
+      <li><b>On-device settings:</b> the app PIN, the activation code, the trial start date, and a short log of recent app errors.</li>
+    </ul>
+
+    <h2>Google account and Google Drive</h2>
+    <p>When the shop taps "Connect Google account", the app requests the <code>drive.file</code> scope, which only gives access to <b>files the app itself created</b>. The app cannot see any other files in the shop's Drive. The app uses this access to:</p>
+    <ul>
+      <li>read the Google account's email address, to bind it to the activation code and the free trial;</li>
+      <li>create a "Battery POS Backup" folder, upload a daily backup there (keeping the latest 30), and restore from those files when the shop asks;</li>
+      <li>keep small control files in the same folder: the active device (<code>device-lock.json</code>), a copy of the activation code (<code>activation.txt</code>) and the trial start date (<code>trial.json</code>).</li>
+    </ul>
+    <p>Battery POS's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google user data is used only to provide the features above. It is not transferred, sold, or used for advertising.</p>
+
+    <h2>Data sent to the developer</h2>
+    <p>The app sends nothing to the developer on its own. If the shop taps "Send to seller" in Settings, the app builds a text summary and opens the phone's share sheet, and the shop chooses where to send it, for example LINE. The summary contains the app version, phone model, Google account email, activation status, last backup time and recent errors. It contains no sales, customer or stock data, and the shop can review it first with "Show what will be sent".</p>
+    <p>If a shop chooses to send a backup file for help with a problem, the developer uses it only to fix that problem and deletes it afterwards.</p>
+
+    <h2>Deleting data and revoking access</h2>
+    <ul>
+      <li>On the phone: uninstall the app, or clear the app's data in Android settings.</li>
+      <li>In Drive: delete the "Battery POS Backup" folder from the shop's Google Drive.</li>
+      <li>To revoke access, go to <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> and remove Battery POS, or tap "Disconnect" in the app.</li>
+    </ul>
+
+    <h2>Changes and contact</h2>
+    <p>Any change to this policy will be posted on this page with a new effective date. Contact: <a href="mailto:hs8ole.pea@gmail.com">hs8ole.pea@gmail.com</a></p>
+  </section>
+</main>
+</body>
+</html>
