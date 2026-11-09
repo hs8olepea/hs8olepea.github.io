@@ -24,18 +24,18 @@
 <main>
   <p><a href="./">← Battery POS</a></p>
   <h1>นโยบายความเป็นส่วนตัว</h1>
-  <p class="muted">Privacy Policy • มีผลตั้งแต่ / Effective: 8 พฤศจิกายน 2569 (8 November 2026) • ฉบับก่อนหน้า / Previous: 7 พฤศจิกายน 2569 (7 November 2026)</p>
-  <p class="muted">สิ่งที่เปลี่ยน: เพิ่มรหัสย่อประจำเครื่อง และไฟล์ <code>device-history.json</code> ในโฟลเดอร์สำรองข้อมูลของร้านเอง • What changed: added a short device code and the <code>device-history.json</code> file in the shop's own backup folder.</p>
+  <p class="muted">Privacy Policy • มีผลตั้งแต่ / Effective: 9 พฤศจิกายน 2569 (9 November 2026) • ฉบับก่อนหน้า / Previous: 8 พฤศจิกายน 2569 (8 November 2026)</p>
+  <p class="muted">สิ่งที่เปลี่ยน: เพิ่ม<b>เซิร์ฟเวอร์ตรวจสิทธิ์ทดลองใช้</b>ขนาดเล็กของผู้พัฒนา ซึ่งรับเฉพาะรหัสย่อประจำเครื่อง (ไม่มีอีเมล ไม่มีข้อมูลร้าน) ตอนเริ่มทดลองใช้ฟรี • What changed: added a small <b>trial-check server</b> run by the developer; it receives only the short device code (no e-mail, no shop data) when a free trial starts.</p>
 
   <section>
     <h2>สรุปสั้นๆ</h2>
-    <p>ข้อมูลของร้านอยู่ในมือถือของร้าน และใน Google Drive ของร้านเท่านั้น ผู้พัฒนาไม่มีเซิร์ฟเวอร์เก็บข้อมูล และไม่ได้รับข้อมูลการขาย ลูกค้า หรือสต็อกของร้าน แอปไม่มีโฆษณาและไม่มีระบบติดตามการใช้งาน</p>
+    <p>ข้อมูลของร้านอยู่ในมือถือของร้าน และใน Google Drive ของร้านเท่านั้น ผู้พัฒนาไม่เก็บและไม่ได้รับข้อมูลการขาย ลูกค้า หรือสต็อกของร้าน มีเพียงเซิร์ฟเวอร์ตรวจสิทธิ์ทดลองใช้ขนาดเล็กที่รับเฉพาะรหัสย่อประจำเครื่อง (ไม่มีอีเมล) ตอนเริ่มทดลองใช้ฟรีเท่านั้น แอปไม่มีโฆษณาและไม่มีระบบติดตามการใช้งาน</p>
 
     <h2>ข้อมูลที่แอปเก็บ</h2>
     <ul>
       <li><b>ข้อมูลร้าน:</b> สินค้า สต็อก การขาย ใบเสร็จ ใบเสนอราคา ค่าใช้จ่าย ข้อมูลลูกค้าของร้าน (ชื่อ เบอร์โทร ที่อยู่ ทะเบียนรถ) และรูปถ่ายที่ร้านแนบไว้ ข้อมูลทั้งหมดเก็บในพื้นที่ของแอปบนมือถือเครื่องนั้น</li>
       <li><b>ข้อมูลในเครื่อง:</b> รหัส PIN สำหรับล็อกแอป รหัสเปิดใช้งาน วันเริ่มทดลองใช้ และบันทึกข้อผิดพลาดล่าสุดของแอป</li>
-      <li><b>รหัสย่อประจำเครื่อง:</b> เพื่อให้แอปรู้ว่ามือถือเครื่องนี้เป็นเครื่องเดิมเมื่อถอนการติดตั้งแล้วติดตั้งใหม่ (และไม่นับเป็นการย้ายไปใช้เครื่องอื่น) แอปคำนวณรหัสย่อ 16 ตัวอักษรจากรหัสประจำเครื่องของระบบ Android ด้วยการแฮชทางเดียว (SHA-256) แล้วเก็บเฉพาะรหัสย่อนี้ แอปไม่เก็บและไม่ส่งรหัสประจำเครื่องจริง รหัสย่อแปลงกลับเป็นรหัสจริงไม่ได้ และไม่มีข้อมูลส่วนบุคคลอื่นปนอยู่</li>
+      <li><b>รหัสย่อประจำเครื่อง:</b> เพื่อให้แอปรู้ว่ามือถือเครื่องนี้เป็นเครื่องเดิมเมื่อถอนการติดตั้งแล้วติดตั้งใหม่ (และไม่นับเป็นการย้ายไปใช้เครื่องอื่น) แอปคำนวณรหัสย่อ 16 ตัวอักษรจากรหัสประจำเครื่องของระบบ Android ด้วยการแฮชทางเดียว (SHA-256) แล้วเก็บเฉพาะรหัสย่อนี้ แอปไม่เก็บและไม่ส่งรหัสประจำเครื่องจริง รหัสย่อแปลงกลับเป็นรหัสจริงไม่ได้ และไม่มีข้อมูลส่วนบุคคลอื่นปนอยู่ รหัสย่อนี้ถูกส่งไปเซิร์ฟเวอร์ตรวจสิทธิ์ทดลองใช้ด้วย (ดูหัวข้อ “เซิร์ฟเวอร์ตรวจสิทธิ์ทดลองใช้”)</li>
     </ul>
 
     <h2>การใช้บัญชี Google และ Google Drive</h2>
@@ -52,8 +52,20 @@
     <p>โฟลเดอร์และไฟล์เหล่านี้อยู่ใน Google Drive ของร้านเอง ร้านมองเห็น เปิดดู ลบ หรือแชร์ได้ ผู้พัฒนาไม่ได้รับสำเนาและเข้าถึงไม่ได้ ถ้าร้านลบไฟล์ควบคุม การย้ายไปใช้เครื่องใหม่อาจต้องขอรหัสปลดล็อกจากผู้ขาย</p>
     <p>ข้อมูลจาก Google ใช้เพื่อการทำงานข้างต้นภายในแอปเท่านั้น ไม่ส่งต่อ ไม่ขาย และไม่ใช้เพื่อโฆษณา</p>
 
+    <h2>เซิร์ฟเวอร์ตรวจสิทธิ์ทดลองใช้</h2>
+    <p>เพื่อให้ช่วงทดลองใช้ฟรี 30 วันนับต่อมือถือหนึ่งเครื่อง (เปลี่ยนบัญชี Google บนมือถือเครื่องเดิมไม่ได้ทดลองใหม่) ผู้พัฒนามีเซิร์ฟเวอร์ตรวจสิทธิ์ขนาดเล็กที่ <code>batterypos.duckdns.org</code> แยกจากข้อมูลร้านค้าโดยสิ้นเชิง ทำงานดังนี้</p>
+    <ul>
+      <li><b>เมื่อไหร่:</b> เฉพาะตอนเริ่มทดลองใช้ฟรี (และลองใหม่เบื้องหลังถ้าเซิร์ฟเวอร์ติดต่อไม่ได้ครั้งแรก) ผู้ที่เปิดใช้งานด้วยรหัสแล้วไม่ส่งอะไรเลย</li>
+      <li><b>ข้อมูลที่ส่ง:</b> รหัสย่อประจำเครื่อง (16 ตัวอักษร) วันเริ่มทดลองใช้ที่แอปทราบอยู่แล้ว (ถ้ามี) รุ่นของแอป และค่าสุ่มครั้งเดียวเพื่อกันการตอบซ้ำ <b>ไม่ส่งอีเมล ไม่ส่งข้อมูลร้านค้า ลูกค้า การขาย หรือสต็อก</b></li>
+      <li><b>ข้อมูลที่เซิร์ฟเวอร์เก็บ:</b> รหัสย่อประจำเครื่อง เวลาที่เห็นเครื่องนี้ครั้งแรก เวลาล่าสุด จำนวนครั้งที่ตรวจ และรุ่นแอป ไม่เก็บอีเมลหรือที่อยู่ IP ในฐานข้อมูล และตั้งค่าไม่ให้เว็บเซิร์ฟเวอร์บันทึกการเข้าถึงสำหรับบริการนี้ บันทึกข้อผิดพลาดของเว็บเซิร์ฟเวอร์ (เช่น เมื่อมีคำขอถี่ผิดปกติ) อาจมีที่อยู่ IP ชั่วคราวและถูกลบอัตโนมัติภายใน 14 วัน</li>
+      <li><b>วัตถุประสงค์:</b> จำกัดการทดลองใช้ฟรีหนึ่งครั้งต่อมือถือหนึ่งเครื่องเท่านั้น ไม่ใช้เพื่อโฆษณา ไม่ติดตามการใช้งาน ไม่ขาย และไม่ส่งต่อให้ผู้อื่น</li>
+      <li><b>ระยะเวลาเก็บ:</b> ลบอัตโนมัติเมื่อไม่มีการตรวจจากเครื่องนั้นเกิน 24 เดือน</li>
+      <li><b>ถ้าเซิร์ฟเวอร์ใช้ไม่ได้:</b> แอปใช้งานต่อได้ตามปกติ (ใช้วันเริ่มทดลองที่เก็บใน Google Drive ของร้าน) แล้วตรวจอีกครั้งภายหลัง</li>
+      <li><b>ขอลบข้อมูล:</b> ติดต่อผู้พัฒนาพร้อมรหัสเครื่อง (ดูได้ในรายงานช่วยเหลือของแอป บรรทัด “รหัสเครื่อง”) เพื่อลบประวัติของเครื่องนั้น (หลังลบ เครื่องนั้นอาจเริ่มทดลองใช้ฟรีใหม่ได้)</li>
+    </ul>
+
     <h2>ข้อมูลที่ส่งถึงผู้พัฒนา</h2>
-    <p>แอปไม่ส่งข้อมูลถึงผู้พัฒนาเองโดยอัตโนมัติ ถ้าร้านกดปุ่ม "ส่งให้ผู้ขาย" ในหน้าตั้งค่า แอปจะสร้างข้อความสรุปและเปิดหน้าแชร์ของมือถือ ร้านเป็นผู้เลือกเองว่าจะส่งทางใด เช่น LINE ข้อความนี้มีรุ่นแอป รุ่นมือถือ อีเมลบัญชี Google สถานะการเปิดใช้งาน เวลาสำรองล่าสุด และข้อผิดพลาดล่าสุด แต่ไม่มีข้อมูลการขาย ลูกค้า หรือสต็อก ร้านกด "ดูข้อมูลที่จะส่ง" เพื่อตรวจก่อนส่งได้</p>
+    <p>นอกจากเซิร์ฟเวอร์ตรวจสิทธิ์ทดลองใช้ข้างต้น แอปไม่ส่งข้อมูลถึงผู้พัฒนาเองโดยอัตโนมัติ ถ้าร้านกดปุ่ม "ส่งให้ผู้ขาย" ในหน้าตั้งค่า แอปจะสร้างข้อความสรุปและเปิดหน้าแชร์ของมือถือ ร้านเป็นผู้เลือกเองว่าจะส่งทางใด เช่น LINE ข้อความนี้มีรุ่นแอป รุ่นมือถือ รหัสเครื่องและสถานะตรวจสิทธิ์ทดลอง อีเมลบัญชี Google สถานะการเปิดใช้งาน เวลาสำรองล่าสุด และข้อผิดพลาดล่าสุด แต่ไม่มีข้อมูลการขาย ลูกค้า หรือสต็อก ร้านกด "ดูข้อมูลที่จะส่ง" เพื่อตรวจก่อนส่งได้</p>
     <p>ถ้าร้านส่งไฟล์สำรองข้อมูลมาให้ช่วยแก้ปัญหาเอง ผู้พัฒนาจะใช้ไฟล์นั้นเพื่อแก้ปัญหาเท่านั้น และลบทิ้งเมื่อเสร็จ</p>
 
     <h2>การลบข้อมูลและการยกเลิกสิทธิ์</h2>
@@ -69,13 +81,13 @@
 
   <section lang="en">
     <h2>Summary</h2>
-    <p>Battery POS keeps shop data on the shop's own phone and in the shop's own Google Drive. The developer runs no server that stores shop data and does not receive sales, customer or stock data. The app has no ads and no analytics.</p>
+    <p>Battery POS keeps shop data on the shop's own phone and in the shop's own Google Drive. The developer does not store or receive sales, customer or stock data. The only server is a small trial-check server that receives just the short device code (no e-mail) when a free trial starts. The app has no ads and no analytics.</p>
 
     <h2>Data the app stores</h2>
     <ul>
       <li><b>Shop data:</b> products, stock, sales, receipts, quotations, expenses, the shop's customer details (name, phone, address, licence plate) and photos the shop attaches. All of it is kept in the app's storage on that phone.</li>
       <li><b>On-device settings:</b> the app PIN, the activation code, the trial start date, and a short log of recent app errors.</li>
-      <li><b>Short device code:</b> so that the app can recognise the same phone after an uninstall and reinstall (and not count it as moving to another device), the app computes a 16-character short code from the Android system device identifier using a one-way hash (SHA-256) and stores only that short code. The raw identifier is neither stored nor sent anywhere. The short code cannot be converted back to the raw identifier and contains no other personal data.</li>
+      <li><b>Short device code:</b> so that the app can recognise the same phone after an uninstall and reinstall (and not count it as moving to another device), the app computes a 16-character short code from the Android system device identifier using a one-way hash (SHA-256) and stores only that short code. The raw identifier is neither stored nor sent anywhere. The short code cannot be converted back to the raw identifier and contains no other personal data. It is also sent to the trial-check server (see "Trial-check server").</li>
     </ul>
 
     <h2>Google account and Google Drive</h2>
@@ -92,8 +104,20 @@
     <p>This folder and these files are in the shop's own Google Drive: the shop can see, open, delete or share them. The developer receives no copy and has no access to them. If the shop deletes the control files, moving to a new device may require an unlock code from the seller.</p>
     <p>Battery POS's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google user data is used only to provide the features above. It is not transferred, sold, or used for advertising.</p>
 
+    <h2>Trial-check server</h2>
+    <p>So that the 30-day free trial counts once per phone (switching Google account on the same phone does not start a new trial), the developer runs a small trial-check server at <code>batterypos.duckdns.org</code>, completely separate from the shops' data:</p>
+    <ul>
+      <li><b>When:</b> only when a free trial starts (and retried in the background if the server could not be reached the first time). Shops that have activated the app with a code send nothing.</li>
+      <li><b>What is sent:</b> the 16-character short device code, the trial start date the app already knows (if any), the app version, and a one-time random value to prevent replay. <b>No e-mail, and no shop, customer, sales or stock data.</b></li>
+      <li><b>What the server stores:</b> the short device code, the time it was first seen, the last time, the number of checks, and the app version. No e-mail or IP address in the database, and the web server is configured not to write an access log for this service. The web server's error log (for example when requests are unusually frequent) may contain an IP address temporarily and is deleted automatically within 14 days.</li>
+      <li><b>Purpose:</b> to allow one free trial per phone. Not used for advertising or tracking, not sold, not shared.</li>
+      <li><b>Retention:</b> deleted automatically when the device has not been checked for 24 months.</li>
+      <li><b>If the server is unavailable:</b> the app keeps working normally (using the trial start stored in the shop's Google Drive) and checks again later.</li>
+      <li><b>Deletion on request:</b> contact the developer with the device code (shown in the app's support report, line "device code") to delete that device's record (afterwards that device may be able to start a new free trial).</li>
+    </ul>
+
     <h2>Data sent to the developer</h2>
-    <p>The app sends nothing to the developer on its own. If the shop taps "Send to seller" in Settings, the app builds a text summary and opens the phone's share sheet, and the shop chooses where to send it, for example LINE. The summary contains the app version, phone model, Google account email, activation status, last backup time and recent errors. It contains no sales, customer or stock data, and the shop can review it first with "Show what will be sent".</p>
+    <p>Apart from the trial-check server above, the app sends nothing to the developer on its own. If the shop taps "Send to seller" in Settings, the app builds a text summary and opens the phone's share sheet, and the shop chooses where to send it, for example LINE. The summary contains the app version, phone model, the device code and trial-check status, Google account email, activation status, last backup time and recent errors. It contains no sales, customer or stock data, and the shop can review it first with "Show what will be sent".</p>
     <p>If a shop chooses to send a backup file for help with a problem, the developer uses it only to fix that problem and deletes it afterwards.</p>
 
     <h2>Deleting data and revoking access</h2>
